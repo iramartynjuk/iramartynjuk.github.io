@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>Статистика</title>
-  <script src="https://www.google.com/jsapi"></script>
-  <script>
-   google.load("visualization", "1", {packages:["corechart"]});
-   google.setOnLoadCallback(drawChart);
-   function drawChart() {
-    var data = google.visualization.arrayToDataTable([
-     ['Період', 'Норм', 'Не норм'],
-     ['2013р.', 7899, 9003],
-     ['2015р.', 9999, 13002],
-     ['2017р.', 13999, 17001]
-    ]);
-    var options = {
-     title: 'Як все насправді, коли бусінка каже, що все норм',
-     hAxis: {title: 'Шкала коли бусінка каже, що все норм або не норм'},
-     vAxis: {title: 'Відповіді бусінки'}
-    };
-    var chart = new google.visualization.ColumnChart(document.getElementById('oil'));
-    chart.draw(data, options);
-   }
-  </script>
- </head>
- <body>
-  <div id="oil" style="width: 500px; height: 400px;"></div>
- </body>
- </html>
+<head>
+	<title>This is my site</title>
+</head>
+<body>
+
+	<h1>This is my super puper site</h1>
+	<h1>My site</h1>
+	<h2>My super site</h2>
+	<h3>My super puper site</h3>
+	<h4>My super super puper site</h4>
+	<h5>My super super super puper site</h5>
+	<h6>My super super super super puper site</h6>
+
+	<ol>
+		Найпопулярніші марки:
+		<li>Adidas</li>
+		<li>Nike</li>
+		<li>Puma</li>
+	</ol>
+
+	<ul>
+		Найпопулярніші виробники:
+		<li>Adidas</li>
+		<li>Nike</li>
+		<li>Puma</li>
+	</ul>
+
+	<ol type ="A">
+		Найпопулярніші країни виробників:
+		<li>Китай</li>
+		<li>Таджикистан</li>
+		<li>Узбекистан</li>
+	</ol>
+
+	<ol type ="I">
+		Найпопулярніші країни виробників:
+		<li>Китай</li>
+		<li>Таджикистан</li>
+		<li>Узбекистан</li>
+	</ol>
+
+<img src="images/logo/adidas.jpg" alt="adidas">
+
+</body>
+</html>
