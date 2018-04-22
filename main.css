@@ -1,0 +1,48 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: montserrat;
+
+}
+
+header{
+	background-color: #2f2f30;
+	height: 70px;
+
+
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+nav{
+	float: right;
+	margin-top: 30px;
+}
+
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+
+}
+
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 60px;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu li img{
+	width: 18px;
+	height: 18px:;
+}
